@@ -1,0 +1,87 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 1em;    
+}
+
+header{
+    width: 100%;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 15px;
+    border-bottom: 2px solid;
+    height: 100px;
+    background-color: rgb(71, 69, 69);
+}
+header h1{
+    font-size: 2em;
+    width: 90%;
+    margin: 0 auto;
+    color: rgb(194, 160, 185);
+    text-align: center;
+}
+
+.box {
+    border:solid 1px;
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.comp{
+    border:solid 1px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+    width: 90%;
+    padding-left: 10px;
+}
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 10px 10px 50px rgb(5, 4, 4);
+    background-color: rgb(248, 227, 245);
+}
+
+section h2{
+    margin: 15px 0; 
+}
+
+section > div{
+    width: 90%;
+}
+
+img{
+    width: 50px;
+    height: 50px;  
+}
+
+.box1{
+    width: 50%;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+.interet ul li{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-bottom: 15%;
+}
+
+.interet{
+    justify-content: space-around;
+    padding: 3%;
+}

@@ -1,0 +1,14 @@
+@media print {
+
+.box1 {
+        width: 100%;
+}
+
+body{
+    width: 98%;
+}
+
+.box{
+    padding: 1%;
+}
+

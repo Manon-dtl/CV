@@ -1,0 +1,8 @@
+
+html, body, div, h1, h2, ol, ul, li, img {
+    margin : 0;
+    padding: 0;
+}
+body {
+    font-family: 'Comic Sans MS', Arial, sans-serif;
+    padding-bottom: 65px;
